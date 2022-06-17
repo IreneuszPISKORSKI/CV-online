@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/bootstrap.css">
+    <title>CV Ireneusz PISKORSKI - Home</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="photo/header.jpg" class="w-100 d-none d-lg-block col-lg-3" id="headerPadding" alt="background photo">
+            <img src="photo/headerSm.jpg" alt="background photo small" class="w-100 d-lg-none" id="headerPadding">
+            <img id="headerPhoto" class="rounded mx-auto d-block mb-3"
+             src="photo/photo1.jpg" alt="Photo d'Irek">
+            <h2>PISKORSKI Ireneusz</h2>
+            <p class="text-center fs-4">Etudiant en développement WEB et applications mobiles</p>
+        </div>
+    </header>
+<div class="container">
+    
+    <div class="row mb-4">
+        <div class="d-none d-lg-block col-lg-3">
+            <a class="btn btn-primary btn-lg col-12 py-4 my-1" href="index.html">Home</a>
+        </div>
+        <div class="col-12 col-md-4 col-lg-3">
+            <a class="btn btn-primary btn-lg col-12 py-4 my-1" href="passe.html">Jusqu'à présent</a>
+        </div>
+        <div class="col-12 col-md-4 col-lg-3">
+            <a class="btn btn-primary btn-lg col-12 py-4 my-1" href="profil.html">Mon profil</a>
+        </div>
+        <div class="col-12 col-md-4 col-lg-3">
+            <a class="btn btn-primary btn-lg col-12 py-4 my-1" href="projets.html">Mes projets</a>
+        </div>
+    </div>
+
+    <div class="d-sm-none">
+        <div> <img src="photo/CV_Ireneusz_PISKORSKI.jpg" alt="CV d'Ireneusz PISKORSKI" class="img-thumbnail border-success bg-success"> </div>
+        <a href="photo/CV_Ireneusz_PISKORSKI.pdf" class="btn btn-primary w-100 mt-1 mb-3" target="_blank">Telecharger CV</a>
+    </div>
+
+
+    <div class="d-md-flex row d-none  row-cols-3 g-4 mb-4">
+        <div class="col">
+          <div class="card">
+            <img src="photo/background1.jpg" class="card-img-top" alt="photoGalery1">
+            <div class="card-body">
+              <h5 class="card-title">Premiere photo</h5>
+              <p class="card-text">Ca marche?</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="photo/background2.jpg" class="card-img-top" alt="photoGalery2">
+            <div class="card-body">
+              <h5 class="card-title">2eme photo</h5>
+              <p class="card-text">azerty</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="photo/background3.jpg" class="card-img-top" alt="photoGalery3">
+            <div class="card-body">
+              <h5 class="card-title">3eme photo</h5>
+              <p class="card-text">qwerty</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div id="carouselExampleControls" class="carousel slide d-md-none mb-4" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="card">
+                    <img src="photo/background1.jpg" class="card-img-top" alt="photoGalery1">
+                    <div class="card-body">
+                      <h5 class="card-title">Premiere photo</h5>
+                      <p class="card-text">Ca marche?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card">
+                    <img src="photo/background2.jpg" class="card-img-top" alt="photoGalery2">
+                    <div class="card-body">
+                      <h5 class="card-title">2eme photo</h5>
+                      <p class="card-text">azerty</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card">
+                    <img src="photo/background3.jpg" class="card-img-top" alt="photoGalery3">
+                    <div class="card-body">
+                        <h5 class="card-title">3eme photo</h5>
+                        <p class="card-text">qwerty</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <form action="https://httpbin.org/get" method="get" target="_blank">
+        <fieldset>
+            <div class="row">
+                <div class="col-xl-6">
+                    <div class="row">
+                        <div class="mb-3 col-lg-6">
+                            <label for="nom" class="form-label">Nom: </label>
+                            <input type="text" class="form-control" name="nom" placeholder="Nom">
+                        </div>
+                        <div class="mb-3 col-lg-6">
+                            <label for="prenom" class="form-label">Prénom: </label>
+                            <input type="text" class="form-control" name="prenom" placeholder="Prénom">
+                        </div>
+                        <div class="mb-3 col-12">
+                            <label for="eMail" class="form-label">E-mail: </label>
+                            <input type="email" class="form-control" name="eMail" placeholder="Votre E-mail">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6">
+                    <div class="row">
+                        <div class="mb-3">
+                            <label for="sujet" class="form-label">Sujet: </label>
+                            <input type="text" class="form-control" name="sujet" placeholder="Sujet">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message: </label>
+                            <textarea class="form-control" name="message" rows="2"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mx-auto mb-3 col-8">
+                <button class="btn btn-success">Envoyer message</button>
+            </div>
+        </fieldset>
+    </form>            
+</div>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+</body>
+</html>
