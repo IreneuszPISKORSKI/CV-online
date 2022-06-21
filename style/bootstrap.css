@@ -105,7 +105,7 @@ fieldset {
   width: 33% !important;
 }
 
-#headerPadding{
+.headerPadding{
   margin-bottom: -75px;
 }
 
