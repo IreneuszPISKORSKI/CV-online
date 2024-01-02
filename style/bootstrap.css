@@ -75,47 +75,6 @@
   --bs-highlight-bg: #fff3cd;
 }
 
-/* Irek was here */
-
-#headerPhoto{
-  height: 150px;
-  width: 150px;
-  border-radius: 50% !important; 
-}
-
-#home{
-  height: 22px;
-  width: 22px;
-}
-
-.bg-menu{ 
-  background-color: #021561;
-}
-
-fieldset {
-  min-width: 0;
-  padding: 0;
-  margin: 0;
-  border: 5px solid rgb(31, 211, 76) ;
-  border-radius: 20px;
-  background-color: #0d6efd;
-}
-
-.w-33 {
-  width: 33% !important;
-}
-
-.headerPadding{
-  margin-bottom: -75px !important;
-}
-
-.liBg {
-  background-color: #031b79;
-  border-right: solid red 2px;
-  padding-right: 10px;
-}
-
-/* Irek was here */
 
 *,
 *::before,
@@ -151,6 +110,17 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 }
 
 h1, .h1 {
+  font-size: 40px;
+  text-align: center;
+}
+@media (min-width: 1200px) {
+  h1, .h1 {
+    font-size: 4rem;
+  }
+}
+
+
+h2, .h2 {
   font-size: calc(1.375rem + 1.5vw);
   border-top: solid red 3px;
   border-bottom: solid red 3px;
@@ -159,19 +129,8 @@ h1, .h1 {
   color: #000;
 }
 @media (min-width: 1200px) {
-  h1, .h1 {
-    font-size: 2.5rem;
-  }
-}
-
-
-h2, .h2 {
-  font-size: 40px;
-  text-align: center;
-}
-@media (min-width: 1200px) {
   h2, .h2 {
-    font-size: 4rem;
+    font-size: 2.5rem;
   }
 }
 @media (max-width: 540px) {

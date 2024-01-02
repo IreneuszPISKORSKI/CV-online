@@ -1,0 +1,38 @@
+#headerPhoto{
+    height: 150px;
+    width: 150px;
+    border-radius: 50% !important; 
+  }
+  
+  #home{
+    height: 22px;
+    width: 22px;
+  }
+  
+  .bg-menu{ 
+    background-color: #021561;
+  }
+  
+  fieldset {
+    min-width: 0;
+    padding: 0;
+    margin: 0;
+    border: 5px solid rgb(31, 211, 76) ;
+    border-radius: 20px;
+    background-color: #0d6efd;
+  }
+  
+  .w-33 {
+    width: 33% !important;
+  }
+  
+  .headerPadding{
+    margin-bottom: -75px !important;
+  }
+  
+  .liBg {
+    background-color: #031b79;
+    border-right: solid red 2px;
+    padding-right: 10px;
+  }
+  
